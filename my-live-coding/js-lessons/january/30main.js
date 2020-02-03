@@ -85,3 +85,6 @@ const exponent = (num, exp = 2) => {
     return letterOccurrences;
   };
   console.log(countOccurrences("this is a string", "i"));
+
+////////////////////////////////////////////////////////////////
+
