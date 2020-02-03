@@ -38,6 +38,8 @@ function checkStr(string) {
 
 
   // 3. Create a function that accepts a text from user and check if the user has entered a month name, if so print out that month and in which season it is.
+  
+  
   function monthCheck(string) {
     let months = [
       "december",
