@@ -204,6 +204,7 @@ console.log(".........end...........");
 
 
 //Object.defineProperties()
+
 Object.defineProperties(person, {
 p1: {
 value: 33,

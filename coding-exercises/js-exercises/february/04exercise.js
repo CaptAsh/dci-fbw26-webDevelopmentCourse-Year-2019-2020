@@ -117,3 +117,110 @@ const studentt = {
   }
 
 console.log(Object.getOwnPropertyNames(studentt)); //  [ 'name', 'class', 'course' ]
+
+
+
+console.log("........ solution down...........");
+
+
+// 01:37pm
+// 5.             countLetters(“tree”) -> expected output: t: 1, r: 1, e: 2
+// online solution can found here https://www.sitepoint.com/community/t/counting-frequency-of-character/216026 
+
+const countLetterss = {
+    name: "Mike", 
+    class: "4A" ,
+    course:"English"
+  }
+
+  function arraySplitting(text){
+    let count = {};
+    text.split('').forEach(function(x) {
+     count[x] = count[x] ? count[x] + 1 : 1;
+    });
+
+    return count;
+    
+   }
+   console.log(arraySplitting("goodmorningberlin2020!?@"));  
+   
+   
+   /* {
+    m: 1,
+    o: 1,
+    r: 2,
+    n: 3,
+    i: 2,
+    g: 1,
+    ' ': 1,
+    b: 1,
+    e: 1,
+    l: 1,
+    '!': 1,
+    '?': 1,
+    '@': 1
+  } */
+
+
+  
+
+
+
+  // also work
+
+function getOccurrences(name) {
+    return name.split("").reduce((acc, char) => {
+      acc[char] = (acc[char] || 0) + 1;
+      return acc;
+    }, {});
+  }
+  console.log(getOccurrences("tree")); // { t: 1, r: 1, e: 2 }
+  
+
+
+
+  console.log("........hadi solution down here...........");
+
+
+
+function arrSpliting(str) {
+  let arr = str.split("");
+  let countObject = {};
+  function characterCount(word, character) {
+    let count = 0;
+    for (let i = 0; i < word.length; i++) {
+      if (word[i] === character) {
+        count++;
+      }
+    }
+    return count;
+  }
+  for (let i = 0; i < arr.length; i++) {
+    let currentChar = arr[i];
+    countObject[currentChar] = characterCount(str, currentChar);
+  }
+  return countObject;
+}
+//console.log(arrSpliting("هادي"));
+
+function countLetters(str) {
+  let arr = str.split("");
+  console.log(arr);
+  let result = {};
+  function countOccurrences(string, letter) {
+    let counter = 0;
+    for (let i = 0; i < string.length; i++) {
+      if (string[i] === letter) {
+        counter++;
+      }
+    }
+    return counter;
+  }
+  for (let i = 0; i < arr.length; i++) {
+    let currentChar = arr[i];
+    result[currentChar] = countOccurrences(str, currentChar); // this is an inner function
+  }
+  return result;
+}
+console.log(countLetters("ABC")); // { A: 1, B: 1, C: 1 }
+
