@@ -85,8 +85,9 @@ const user = {
             
             for (let i = 0; i <= zodiacMonths.length; i++) {
                 zodiacEmptyObject = zodiacEmptyObject + [i];
-            if( )
+           
             
+
              
         }         
       
