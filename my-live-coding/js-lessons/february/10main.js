@@ -83,7 +83,11 @@ const objects = [
   const car = {
     name: "Ford",
     year: "2020",
-    color: "Red"
+    color: {
+      name: "Ford",
+      year: "2020",
+      color: "Red"
+    }
   };
   
   const newObject = car;
@@ -148,7 +152,7 @@ console.log("::::::::::::::end spread op::::::::::::");
     // console.log(num);
     if (num == 1) {
       return 1;
-    }                               // no else here ??? heheh
+    }                               // no else here ???
     return num * factorial(num - 1);
         // 5   *           5   - 1 = 5 * (5-1) =  20   // 
   };

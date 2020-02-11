@@ -144,6 +144,8 @@ chef
 
 console.log("::::::::::::::end::::::::::::");
 
+
+// forEach
 family.forEach(arr => arr.forEach(element => console.log(element)));
 
 
@@ -162,16 +164,145 @@ chef
 console.log("::::::::::::::end::::::::::::");
 
 
+// for of
+ 
+for(let innerArray of family){
+    for( let element of innerArray){
+
+        console.log(element);   
+     }
+
+
+}
+
+/* output
+
+ali
+22
+teacher
+olga
+40
+chef
+
+*/
+console.log("::::::::::::::end::::::::::::");
+//////////////////////////////////////////////////
+
+
+
 
 
 // Nesting objects
 // Nesting and accessing objects in objects
 
+const tShirt = {
+
+color : "red",
+size  : ["xs", "s","m", "l", "xl"],
+countries: {
+name: ["china", "germany"],
+capital : ["beijing", "berlin"],
+obj : {
+
+one: 3344,
+two : 5654,
+printOut : function (){
+
+console.log(this.one) // refer to obj
+
+}
+
+},
+
+display : function(){
+    console.log(this.name); // refer to countries
+    
+}
+
+},
+
+
+fabric : "cotton",
+method : function(){
+
+console.log(this.color) // refer to tShirt
+
+
+}
+
+};
+
+
+
+// this is school way
+console.log(tShirt.size[2]);               // m
+console.log(tShirt.countries.capital[1]); // berlin
+console.log(tShirt.countries.name[1]);   // germany
+console.log(tShirt.countries.obj.two);  // 5654
+
+console.log("::::::::::::::end::::::::::::");
+
+
+tShirt.method();                   //  red
+tShirt.countries.display();       //   [ 'china', 'germany' ]
+tShirt.countries.obj.printOut(); //    3344
+
+
+console.log(":::::::::::newShortWay::::::::::::");
+
+
+let newShortWay = tShirt.countries;
+newShortWay.display();              //  [ 'china', 'germany' ]
+
+console.log("::::Nesting and accessing arrays in objects::::::::::::");
+
+
 // Nesting and accessing arrays in objects
+
+ let car = ["ford", "pink", 2020, "engine", "model"];
+
+
+let [carName, carColor, carYear, ...rest] = car ;
+
+console.log(carName);         // ford
+console.log(rest);           // [ 'engine', 'model' ]
+console.log(car);           //  [ 'ford', 'pink', 2020, 'engine', 'model' ]
+
+
+console.log("::::::Nesting and accessing arrays in objects:::::::::::");
+
+
 
 // Nesting and iterating over objects in arrays
 
+const object = {
+firstName : "Alii",
+old : "22",
+country : "germany"
+
+};
+({firstName, old, country} = object);      // new way
+console.log(firstName);                   // output is Alii
+
+console.log(object.firstName);          // normal way  // output is Alii
+
+
+
+
+
+
+
 // Destructuring assignment
+
+
+
+
 // Extracting values from arrays: Array destructuring assignment
+
+
+
+
+
+
 
 // Extracting values from objects: Object destructuring assignment
