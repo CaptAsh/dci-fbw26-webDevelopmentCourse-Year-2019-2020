@@ -288,21 +288,27 @@ console.log(object.firstName);          // normal way  // output is Alii
 
 
 
-
-
-
-
 // Destructuring assignment
-
-
-
-
 // Extracting values from arrays: Array destructuring assignment
 
-
-
-
-
-
+let car = ["Ford", "pink", 2020, "enj", "xs"];
+// let carName = car[0];
+// let carColor = car[1];
+let [carName, carColor, carYear, ...rest] = car;
+console.log(carName);
+console.log(rest);
+console.log(car);
+// Nesting and iterating over objects in arrays
+const object = {
+  firstName: "Ali",
+  old: 22,
+  country: "Germany"
+};
 
 // Extracting values from objects: Object destructuring assignment
+
+({ firstName, old, country } = object);
+// tomorrow topic ({ firstName, old, country } = obj);
+console.log(firstName);
+
+//console.log(object.firstName);
