@@ -36,6 +36,7 @@ The Person class should have a method called describe which
 Create a TV class with properties like brand, channel and volume.
 
 -Specify brand in a constructor parameter. Channel should be 1 by default. Volume should be 50 by default.
+
 -Add methods to increase and decrease volume. Volume can’t never be below 0 or above 100.
 
 -Add a method to set the channel randomly. Let’s say the TV has only 50 channels.
@@ -47,24 +48,45 @@ that returns info about the TV status like: “Panasonic at channel 8, volume 75
 
 
 class Tv {
-    constructor(_brand){  // setting up my constructor
-    this.brand = "samsung";
-    this.channel = 1;
-    this.volume = 50;
+    constructor(_brand, _channel = 1, _volume = 50){  // setting up my constructor
+    this.brand = _brand;
+    this.channel = _channel;
+    this.volume =_volume;
     
     }
 
+    volumeUp() {
+      if (this.volume <= 100) {
+        this.volume++;
+        console.log(`Volume is ${this.volume}`)
+      } else{
+
+        console.log("this is too much")
+      }
+    } 
+
+
+    volumeDown() {
+      if (this.volume > 0) {
+        this.volume--;
+        console.log(`Volume is ${this.volume}`)
+      } else {
+        console.log("this is bad");
+  }
+}
 
 randomChan() {
-    const channelMax = 50;
-    const random = (this.channel = Math.floor(Math.random() * channelMax));
-    console.log(random);
-  }
+  const channelMax = 51;
+  console.log(this.channel = Math.floor(Math.random() * channelMax));
+  
+}
+
+
 
 
 resetTV() {
-  this.channel;
-  this.volume;
+  this.channel = 1;
+  this.volume = 50;
 }
 
 
@@ -73,11 +95,22 @@ resetTV() {
     console.log(`${this.brand} at channel ${this.channel}, volume ${this.volume}`);
     
     }
-    
+  
     }
-    let newMachine = new Tv("", 8, 75);
-    newMachine.display();                   
+    let newMachine = new Tv("samsung", 8, 75);
+  newMachine.display(); 
+
+  newMachine.volumeUp();
+  newMachine.volumeDown();
+  newMachine.randomChan();
+  
 
 
 
+  
     console.log("::::::::::::::end::::::::::::");
+
+
+
+  
+    

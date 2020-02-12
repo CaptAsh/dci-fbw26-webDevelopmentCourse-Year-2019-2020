@@ -133,21 +133,106 @@ console.log(red);                // Color { name: 'ORANGE', age: 200, birthday: 
 console.log("::::::::::::::end::::::::::::");
 
 
+////////////////////////////////////////////////////////////////////////////
+
+
+// extends and super()
+// extends --> inheriting the methods from the original class which being callled
+class Person1 {
+    constructor(_name, _age){
+this.name = _name;
+this.age = _age;
+
+    }
+
+display(){
+
+    console.log(`Hey ${this.name}, i'm ${this.age}`)
+}
+
+}
+
+class Kid extends Person1 {
+constructor(_name, _age, _height){
+   super(_name, _age);
+  this.height = _height
+}
+
+show(){
+return `${this.name} is a ${this.age} years old, i am child class `;
+
+}
+}
+let zain = new Kid("Ali", 30);
+zain.display();
+console.log(zain.show());
 
 
 
 
+zain.increment = function (){
+
+    console.log("cool");
+};
+console.log(zain.increment);
 
 
+console.log("::::::::::::::end::::::::::::");
 
-// extends  and super()
-// Array.filter()
+// REVISION
+let names = ["Ali", "Nancy", "olga", "Hadi"];
 
+//Array.find - will get just one truthy result
+
+findName= names.find(name =>name.length ==4)
+console.log(findName);
+                                      // olga
+console.log("::::::::::::::end::::::::::::");
+
+// Array.filter() - will get all truthy result 
+
+let arr = ["Ali", "Nancy", "olga", "Hadi"];
+const result = arr.filter(name => name.length > 3);
+console.log(result);           
+                           // [ 'Nancy', 'olga', 'Hadi' ]
+console.log("::::::::::::::end::::::::::::");
+
+
+console.log("::::::::::::::end::::::::::::");
 // Array.map()
+names.map(x => console.log(x));
+
+/*
+Ali
+Nancy
+olga
+Hadi
+
+*/
+console.log("::::::::::::::end::::::::::::");
+
 
 // Array.reduce()
 
-// Array.sort()
+
+let numbers = [2,4,6,8,9];
+
+result1 = numbers.reduce((acc, cur) => acc + cur) / numbers.length
+console.log(result1); // 5.8
+
+console.log("::::::::::::::end::::::::::::");
+
+// Array.sort() - just organise the original array
+
+let letters = ["a", "c", "b", "d"];
+
+letters.sort();
+console.log(letters);   // [ 'a', 'b', 'c', 'd' ]
+
+
+
+
+
 
 // new Date()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now
