@@ -1,4 +1,4 @@
-// LESSON 06FEB2020 Donerstag 
+// LESSON 06FEB2020 Donerstag  
 
 // revision
 

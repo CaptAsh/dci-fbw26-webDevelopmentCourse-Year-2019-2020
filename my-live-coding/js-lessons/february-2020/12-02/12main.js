@@ -1,7 +1,7 @@
 //12FEB2020, Mittwoch
 // NEW LESSON
 
-
+ 
 // Destructuring objects as function parameters
 function fun(num, { name }) {
     console.log(num);
