@@ -1,4 +1,4 @@
-//13Jan2020 Montag
+//13Jan2020 , MONDAY
 
 let old, nice, crazy;
 old = true;

@@ -1,4 +1,4 @@
-//23JAN2020 Donnerstag
+//23JAN2020 , THURSDAY
 //lesson
 
 // var, let , const

@@ -1,5 +1,4 @@
-// 22Jan2020 Mittwoch
-
+// 22Jan2020 , WEDNESDAY
 
  // new style -  Arrow Function Expression :
 const sum = (x,y) => {

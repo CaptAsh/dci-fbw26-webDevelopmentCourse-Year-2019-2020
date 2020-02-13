@@ -1,5 +1,6 @@
-/*LESSON
-16Jan2020
+/*16JAN2020 , THURSDAY
+
+LESSON
 
 // Loops While (loops through a block of code while a specified condition is true)
 //will not go inside loops untill condition is truthy!

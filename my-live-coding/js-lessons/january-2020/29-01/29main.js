@@ -1,7 +1,6 @@
+// LESSONS 29JAN2020 , WEDNESDAY
 
-// LESSONS 29JAN2020 MITTWOCH
-
-// NEVER DO THIS!!!
+// NEVER DO THIS!!! 
 
 
 console.log("..........end...............")

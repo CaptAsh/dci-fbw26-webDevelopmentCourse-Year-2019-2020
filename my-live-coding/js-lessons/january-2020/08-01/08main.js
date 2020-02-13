@@ -1,4 +1,4 @@
-// REVISION FROM 06.01.2020 Monday
+// 08JAN2020 , WEDNESDAY
 
 let str = "this is long text";
 console.log(str.slice(3)); // 3

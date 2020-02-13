@@ -1,4 +1,4 @@
-// 20Jan2020 Montag
+// 20Jan2020, MONDAY
 // ARRAY can store multiple things inside
 
 // <array name> = [ <value 1>,  <value 2>, ........ ]

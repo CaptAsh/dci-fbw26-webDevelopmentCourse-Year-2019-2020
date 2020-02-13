@@ -1,4 +1,4 @@
-// revision from 08.Jan.2020 Mitwoch
+//09JAN2020 , THURSDAY
 let x, y, z;
 x = 4;
 y = 5;

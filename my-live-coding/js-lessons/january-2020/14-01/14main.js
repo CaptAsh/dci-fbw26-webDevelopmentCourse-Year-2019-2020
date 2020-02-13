@@ -1,4 +1,4 @@
-// 14.Jan.2020
+// 14JAN2020 , TUESDAY
 // NEW LESSON
 
 // switch (<expression>){...}

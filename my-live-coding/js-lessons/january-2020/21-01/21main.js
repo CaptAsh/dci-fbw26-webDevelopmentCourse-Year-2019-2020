@@ -1,4 +1,4 @@
-// 21Jan2020 Dienstag 
+// 21Jan2020, TUESDAY
 // lesson
 
 
