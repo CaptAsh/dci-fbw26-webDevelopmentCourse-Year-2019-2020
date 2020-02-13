@@ -1,6 +1,6 @@
 
 //19DEC2019
-//INTRO TO JAVASCRIPT
+//INTRO TO JAVASCRIPT.
 
 console.log("Hey I'm Js");    // this is the most used function to print out
 
