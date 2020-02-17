@@ -126,3 +126,6 @@ Folder **12-02-20** (Class 12.02.2020)
 
 Folder **13-02-20** (Class 13.02.2020)
 * JavaScript (try...catch, throw, call function several times, setTimeout() and Exercises)
+
+**17-02-20 (Class 17.02.2020)
+* JavaScript Indvidual Final-Test
