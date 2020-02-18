@@ -81,12 +81,12 @@ Folder **17.01.20** (Class 20.01.2020)
 
 Folder **21.01.20** (Class 21.01.2020)
 * JavaScript (Array, Function and Exercises(split, reverse, join, concat) ) )
-* useful resources : 
-* join() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
-* split() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
-* reverse() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
-* concat()(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
-
+* Useful resources : 
+* Array.prototype.join() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+* String.prototype.split() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+* Array.prototype.reverse()(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+* Array.prototype.concat()(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+* Array.prototype.push() 
 
 
 Folder **22.01.20** (Class 22.01.2020)
