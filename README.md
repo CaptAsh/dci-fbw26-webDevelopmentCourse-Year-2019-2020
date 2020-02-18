@@ -80,7 +80,7 @@ Folder **17.01.20** (Class 20.01.2020)
 * JavaScript (Array and Exercises)
 
 Folder **21.01.20** (Class 21.01.2020)
-* JavaScript (Array, Function and Exercises(split, reverse, join, concat) ) )
+* JavaScript (Array, Function and Exercises(split, reverse, join, concat, find) ) )
 * Useful resources : 
 * Array.prototype.join() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 * String.prototype.split() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
