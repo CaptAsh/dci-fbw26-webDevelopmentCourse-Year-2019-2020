@@ -34,10 +34,10 @@ Folder **19.12.19** (Class 19.12.2019)
 Folder **06.01.20** (Class 06.01.2020)
 * Mathematical expressions: +, -, *, /, %
 * Boolean expressions: comparison operators (===, !==, >=, <=, >, <)
-* typeof
-* ternary condition ? exprIfTrue : exprIfFalse
-* .length
-*  Str[0]
+* typeof (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+* ternary condition ? exprIfTrue : exprIfFalse (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+* .length (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
+*  Str[0] ()
 * .substring
 * .toUpperCase
 * .toLowerCase
