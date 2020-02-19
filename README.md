@@ -139,4 +139,8 @@ Folder **13-02-20** (Class 13.02.2020)
 * JavaScript (Indvidual Final-Test)
 
 **18-02-20** (Class 18.02.2020)
-* JavaScript ( 3 Old Exercises make in 3 solution in 3 different Repo)
+* JavaScript ( 3 Old Exercises make in 3 solution in 3 different Repo and inside Repo 3 branches)
+
+**19-02-20** (Class 19.02.2020)
+* JavaScript (Continue with 3 Old Exercises make in 3 solution in 3 different Repo and inside Repo 3 branches)
+* Personal Meeting with Lecturer about Personal Educational assessment.
