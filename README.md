@@ -34,9 +34,9 @@ Folder **19.12.19** (Class 19.12.2019)
 Folder **06.01.20** (Class 06.01.2020)
 * Mathematical expressions: +, -, *, /, %
 * Boolean expressions: comparison operators (===, !==, >=, <=, >, <)
-* typeof (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
-* ternary condition ? exprIfTrue : exprIfFalse (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
-* .length (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
+* [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+* [ternary condition ? exprIfTrue : exprIfFalse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+* [.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
 *  Str[0] ()
 * .substring
 * .toUpperCase
@@ -82,12 +82,12 @@ Folder **17.01.20** (Class 20.01.2020)
 Folder **21.01.20** (Class 21.01.2020)
 * JavaScript (Array, Function and Exercises(split, reverse, join, concat, find) ) )
 * Useful resources : 
-* Array.prototype.join() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
-* String.prototype.split() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
-* Array.prototype.reverse()(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
-* Array.prototype.concat()(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
-* Array.prototype.push() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
-* Array.prototype.find() (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+* [Array.prototype.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+* [String.prototype.split()] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+* [Array.prototype.reverse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+* [Array.prototype.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+*[Array.prototype.push()] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+* [Array.prototype.find()] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
 
 Folder **22.01.20** (Class 22.01.2020)
