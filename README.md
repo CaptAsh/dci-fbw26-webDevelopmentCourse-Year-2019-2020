@@ -164,3 +164,7 @@ Folder **13-02-20** (Class 13.02.2020)
  <a href="https://static.asiawebdirect.com/m/kl/portals/kuala-lumpur-ws/homepage/kl-top10s/10-hotels-klcc/pagePropertiesImage/best-klcc-hotels.jpg"
  target="_blank" > This KL TWIN TOWER</a> 
  ```
+
+ * [HTML FORM](https://www.w3schools.com/html/html_forms.asp)
+ * [HTML CHECKBOX](https://www.w3schools.com/tags/att_input_type_checkbox.asp)
+ * EXERCISE ABOUT [iMAGE AS A LINK](https://www.w3schools.com/html/html_images.asp)
