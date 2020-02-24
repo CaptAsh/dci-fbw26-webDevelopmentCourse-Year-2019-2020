@@ -1,0 +1,319 @@
+<!-- 24FEB2020, MONDAY , FIRST LESSON -->
+
+<!-- INTRO -->
+
+<!-- HTML BOILER PLATE  - refers to sections of code that have to be included in many places with little or no alteration.
+write html : 5 to have auto boiler plate-->
+<!--https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- char set -->
+    <meta charset="UTF-8">     
+    <meta name="Ashraf" content="this webpage about me">
+    <meta name="author" content="Ashraf Tajuddin">
+    <meta name="keywords" content="webdev,css,html,javascript">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <meta name="description" content="HTML test webpage">
+<link rel="stylesheet" href="style.css">
+
+
+
+<!-- page title -->
+
+<title> Ashraf Tajuddin </title>
+
+<style>
+   
+
+
+</style>
+
+
+
+</head>
+
+
+<body>
+
+
+<!-- in body is the place to be smart & creative -->
+
+<nav>
+
+    <ul>
+        <li> <a href = "#">Home</a> </li>
+        <li> <a href = "call.html" >Call Us </a></li>
+        <li><a href = "about.html" > About Us </a></li>
+    </ul>  
+  
+
+</nav>
+
+
+    <a href="#down"style="color: red" >Go Down!</a>
+    <h1 >First Page</h1>
+
+
+    <p style="color:green">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br> 
+      <p style="color:blue" > when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting, 
+      remaining essentially unchanged. <br> <p style = "color : violet">It was popularised in the 1960s with the release of Letraset 
+      sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+      like Aldus PageMaker including versions of Lorem Ipsum.
+
+    </p>
+</p>
+</p>
+
+
+<!-- this is inline element-->
+
+<img src= "klcc.jpg" alt="KLCC"  class = "img1" width ="600px" height = "400px"   title = "KL TWIN TOWER" name = "klcc" id = "3" class = "img">
+
+ <br>
+ <br>
+ 
+<!-- Attribute  --> 
+<!-- this is inline element-->
+<a href="https://static.asiawebdirect.com/m/kl/portals/kuala-lumpur-ws/homepage/kl-top10s/10-hotels-klcc/pagePropertiesImage/best-klcc-hotels.jpg"
+ target="_blank" class = "img1" title = "KL TWIN TOWER" name = "klcc" id = "3" class = "img" > This KL TWIN TOWER</a> 
+
+
+
+
+<p>
+<h2>HTML Text Formatting Elements</h2>
+
+   <b>Lorem, ipsum dolor sit</b>
+   <br>
+   <em>Debitis, neque, beatae </em>
+   <br>
+   <i>upiditate distinctio delen</i>
+   <br>
+    <small>distinctio delenitic</small> 
+    <br>
+    <strong>ut tenetur saepe quod at 
+    temporibus doloribus, quae est</strong>
+    <br>
+    <sub>aborum voluptas iure labore?</sub>
+    <br> 
+   <sup>Dignissimos corporis facere mollitia veritatis?</sup> 
+   <br>
+   <mark>Corporis ipsum
+    quis debitis cupiditate inventore,</mark> 
+    <br>
+     <del>exercitationem deserunt soluta voluptatem consectetur recusandae
+        cumque magni culpa amet, reiciendis quam?</del>
+
+
+
+
+</p>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+   <!-- TABLE
+tr = table row
+th = table head
+
+td = table data
+
+--> 
+<h2>Basic HTML Table</h2>
+
+<table style="width:20%">
+<caption>USER DATA</caption>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  
+  
+  <tr>
+    <td>Ali</td>
+    <td>Olga</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Hadi</td>
+    <td>Jack</td>
+    <td>31</td>
+  </tr>
+  <tr id = "down">
+    <td>John</td>
+    <td>Abu</td>
+    <td>20</td>
+  </tr>
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+<!-- UL AND OL --> 
+<h2>An unordered HTML list</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
+
+
+<h2>An ordered HTML list</h2>
+
+<ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+
+
+
+
+<h2>An ordered HTML list</h2>
+
+<ol type="i">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+
+
+<h2>Text input fields</h2>
+
+<h2>HTML Forms</h2>
+
+<form action="index.php" method = "POST">
+  <label for="fname">First name:</label> <br>
+  <input type="text" id="fname" name="fname"  placeholder="First Name here"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="last name here"><br><br>
+
+  <input type="submit" value="Submit" onclick = ""> 
+  <input type="submit" value="Click Here" onclick = ""> 
+  <input type="reset" value="reset"><br>
+
+  <input type="checkbox" id="em" name="email" class = "checkbox" >
+  send me monthly newsletter
+</form> 
+
+<h2>Checkboxes</h2>
+<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="BMW">
+  <label for="vehicle1"> BMW</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Mercedes">
+  <label for="vehicle2"> Mercedes</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="VW">
+  <label for="vehicle3">VW</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+
+
+
+
+
+<a href="#top" style="color: red">Go Up !</a> 
+<br>
+<a href="#" style="color: blueviolet">Home!</a> 
+
+</body>
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- what is user interface -->
+
+
+
+
+
+
+
+
+
+<!-- HyperText Markup Language -->
+
+
+
+
+
+
+
+<!-- https://en.wikipedia.org/wiki/HTML -->
+
+
+
+
+
+
+
+<!-- Tag name -->
+
+
+
+
+
+
+
+
+<!-- Attribute -->
+
+
+
+
+
+
+<!-- Declaring the document type  -->
+
+
+
+
+
+
+<!-- The root element -->
+
+
+
+
+
+
+
+
+<!-- Basic structure -->
+
+
+

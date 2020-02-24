@@ -1,0 +1,38 @@
+body {
+background-color: burlywood;
+color: black;
+
+}
+
+h1, h2{
+ color: black;
+
+}
+
+table, th, td {
+    border: 2px solid black;
+    }
+
+.checkbox{
+
+color: rebeccapurple;
+}
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+
+
+
+
+
+
+#down{
+
+    color: blue;
+}
+
