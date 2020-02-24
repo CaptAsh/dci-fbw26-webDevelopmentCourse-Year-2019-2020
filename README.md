@@ -167,4 +167,4 @@ Folder **13-02-20** (Class 13.02.2020)
 
  * [HTML FORM](https://www.w3schools.com/html/html_forms.asp)
  * [HTML CHECKBOX](https://www.w3schools.com/tags/att_input_type_checkbox.asp)
- * EXERCISE ABOUT [iMAGE AS A LINK](https://www.w3schools.com/html/html_images.asp)
+ * EXERCISE ABOUT [iMAGE AS A LINK](https://www.w3schools.com/html/html_images.asp)   
