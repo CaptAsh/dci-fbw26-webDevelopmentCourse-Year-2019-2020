@@ -148,7 +148,18 @@ Folder **13-02-20** (Class 13.02.2020)
 =============== HTML FEBRUARY 2020========================
 
 **24-02-20** (Class 24.02.2020)
-* HTML       (INTRO - Install Two Extensions - Live Server(Ritwick Dey) & HTML Preview  from VSCode)
+* **HTML INTRO** ( - Install Two Extensions - Live Server(Ritwick Dey) & HTML Preview  from VSCode)
 * Open index.html from terminal using command < code . >)
 * http://127.0.0.1:5500/index.html : 127.0.0.1 is IP Address from my server / 5500 is Port Number
 * Write html : 5 IN VSCode to have this full [HTML BOILER PLATE](https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/)
+* type meta vp = meta viewport
+* type lorem50 to have 50 words of lorem random words
+
+```
+* Attribute - <img src= "klcc.jpg" alt="KLCC"  width ="600px" height = "400px"   title = "KL TWIN TOWER" name = "tree" id = "3" class = "img">
+```
+
+```
+* Attribute - <a href="https://static.asiawebdirect.com/m/kl/portals/kuala-lumpur-ws/homepage/kl-top10s/10-hotels-klcc/pagePropertiesImage/best-klcc-hotels.jpg"
+ target="_blank" > This KL TWIN TOWER</a> 
+ ```
