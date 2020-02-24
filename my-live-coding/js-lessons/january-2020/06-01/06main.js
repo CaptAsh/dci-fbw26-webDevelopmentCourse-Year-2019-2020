@@ -1,46 +1,91 @@
 // 06JAN2020, MONDAY
 
+console.log("...............END.............")
 
 //Mathematical expressions: +, -, *, /, %
-console.log(1 * 4);
+
+console.log(1 * 4);  // 4
+
+console.log("...............END.............")
+
 
 //Boolean expressions: comparison operators (===, !==, >=, <=, >, <)
 console.log(1 >= 4);
+
+
+
 // var
 let x = 3;
 let y = 3;
 let str = "This is text";
 let c = false;
 let t = "3";
-var newVar = 0; // hostied
+var newVar = 0; // hoisting
 const z = 15;
 
-//typeof
-console.log(c);
-let result = 0;
-console.log(x);
-console.log(y);
-// ternary condition ? exprIfTrue : exprIfFalse
-let kid = 22;
-kid > 16 ? console.log("Go Party 😎") : console.log("Stay Home 🤨");
-let drive = 55;
-drive > 18 ? console.log("Yeah drive now 💪🏻") : console.log("Nope sorry");
-//.length
+
+console.log(".............typeof............")
+
+
+
+//typeof - typeof operator returns a string indicating the type of the unevaluated operand.
+
 
 let name = "hadi";
-console.log(typeof name); // will print the type of var name
+console.log(typeof name);   // will print the type of var name // string
 
-console.log(name.length); // will print how many char in name (number)
+console.log(typeof z)   // number
+console.log(typeof c)  // boolean
+console.log(c);  // false
+let result = 0;
+console.log(x);  // 3
+console.log(y);  // 3
+
+console.log("...............ternary condition down here.............")
+
+// ternary condition ? exprIfTrue : exprIfFalse  - The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy. 
+let kid = 22;
+kid > 16 ? console.log("Go Party 😎") : console.log("Stay Home 🤨"); // Go Party
+
+let drive = 55;
+drive > 18 ? console.log("Yeah drive now 💪🏻") : console.log("Nope sorry"); // Yeah drive now
+
+console.log("...............END.............")
+
+console.log("................length............")
+//.length  - The .length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.
+
+console.log(name.length);   // will print how many char in name (number) // 44
 let lastName = "Nsreeny";
-console.log(lastName.length); // 7
-//Str[0]
-console.log(lastName[2]);
+console.log(lastName.length); // 7 counting with first index == 1
+
+console.log("...............length.............")
+///////////////////////////
+
+
+console.log(".............. str[0]  .............")
+
+//Str[0] - [] to know the index of the number
+console.log(lastName[2]); // r
+
 let email = "xxxxxxxxxxx@gmail.com";
-console.log(email[11]);
+console.log(email[11]); // @
 lastName[0] === "N" ? console.log("cool") : console.log("Not cool");
+
+console.log(".............. str[0]  .............")
+
+///////////////////////////////////////
+
+
 //.substring
 let restOfStr = lastName.substring(5);
 console.log(restOfStr);
+
+
+/////////////////////////////
+
+
+
 //.toUpperCase
 let str3 = name.toUpperCase();
 console.log(str3);

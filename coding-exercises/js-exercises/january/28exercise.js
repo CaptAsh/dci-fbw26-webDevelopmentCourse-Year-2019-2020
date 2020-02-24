@@ -41,7 +41,7 @@ const string = str => {
   
 
 
-//2. Create a function that calculates the user ageend. e.g. 2000 -> 20.
+//2. Create a function that calculates the user age. e.g. 2000 -> 20.
 console.log("........no.2......hadi...............")
 
 

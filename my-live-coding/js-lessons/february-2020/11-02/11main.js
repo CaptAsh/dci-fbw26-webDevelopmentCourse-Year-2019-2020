@@ -108,12 +108,14 @@ nancy
 
 console.log("::::::::::::::end::::::::::::");
 
-names.map(name => console.log(name)); // /just an explanation
+names.map(name => console.log(name));  // /just an explanation
 
 /*output
+
  ali
 olga
 nancy
+
  */
 
 console.log("::::::::::::::end::::::::::::");
@@ -126,6 +128,7 @@ let family = [["ali", 22 ,"teacher"],["olga", 40 ,"chef"]];
 for( let i = 0; i < family.length; i ++){
     for( let j = 0; j < family[i].length; j++){
 console.log(family[i][j]);
+
 /* output
 
 
@@ -235,6 +238,7 @@ console.log(this.color) // refer to tShirt
 
 
 // this is school way
+
 console.log(tShirt.size[2]);               // m
 console.log(tShirt.countries.capital[1]); // berlin
 console.log(tShirt.countries.name[1]);   // germany
@@ -308,6 +312,7 @@ const object = {
 // Extracting values from objects: Object destructuring assignment
 
 ({ firstName, old, country } = object);
+
 // tomorrow topic ({ firstName, old, country } = obj);
 console.log(firstName);
 

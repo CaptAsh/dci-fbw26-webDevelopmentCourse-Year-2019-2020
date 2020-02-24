@@ -91,7 +91,7 @@ console.log(".........end...........");
 //from slack 1.01 pm
 
  /*3. 
-
+ 
  Write a function that accepts several parameters and calculates the 
  number of money that will have been saved as pension until a person retires.
 
@@ -152,14 +152,14 @@ console.log(".........my solution...........");
   console.log(".........hadi solution down..........");
 
 
-// hadi solution
+//
 
 
 
 ((currentAge, retireAge, monthlyWage, savingPercent ) =>{
 
 if ( currentAge >= retireAge){
-console.log( "Yo're already retired")
+console.log( "Hi already retired")
 }else {
 
     let yearsToSave = retireAge - currentAge;

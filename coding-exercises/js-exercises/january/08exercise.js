@@ -1,3 +1,5 @@
+
+
 //1. Create two variables. One variable should contain a string value and the other should contain a number. Concatenate the string and the number.
 let num1 = "100";
 let strVal = "Ashraf";

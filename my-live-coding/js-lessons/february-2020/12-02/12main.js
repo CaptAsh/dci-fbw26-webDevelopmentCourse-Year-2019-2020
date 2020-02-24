@@ -95,7 +95,7 @@ this.kind = _kind;
 this.hometown = _hometown;
 
 }
-display (){  // instances probably declare under the constuctor
+display (){  // instances probably declare under the constructor
 
 console.log(`It is very cute ${this.kind} ,and lives in  ${this.hometown}`);
 
@@ -113,6 +113,7 @@ console.log(sofi.display());                     //  It is very cute Fish ,and l
 
 
 console.log("::::::::::::::end::::::::::::");
+
 // other way to write constructor
 
 class Color{
