@@ -145,6 +145,12 @@ Folder **13-02-20** (Class 13.02.2020)
 * JavaScript (Continue with 3 Old Exercises make in 3 solution in 3 different Repo and inside Repo 3 branches)
 * Personal Meeting with Lecturer about Personal Educational assessment.
 
+
+**20-02-20** (Class 20.02.2020)
+* JavaScript (Continue with 3 Old Exercises make in 3 solution in 3 different Repo and inside Repo 3 branches)
+* Personal Meeting with Lecturer about Personal Educational assessment.
+
+
 =============== HTML FEBRUARY 2020========================
 
 **24-02-20** (Class 24.02.2020)
@@ -155,7 +161,7 @@ Folder **13-02-20** (Class 13.02.2020)
 * type meta vp = meta viewport
 * type lorem50 to have 50 words of lorem random words
 
-* [Attribute](https://www.w3schools.com/html/html_attributes.asp) :
+* [HTML Attribute](https://www.w3schools.com/html/html_attributes.asp) :
 ```
  <img src= "klcc.jpg" alt="KLCC"  width ="600px" height = "400px"   title = "KL TWIN TOWER" name = "tree" id = "3" class = "img">
 ```
@@ -167,4 +173,4 @@ Folder **13-02-20** (Class 13.02.2020)
 
  * [HTML FORM](https://www.w3schools.com/html/html_forms.asp)
  * [HTML CHECKBOX](https://www.w3schools.com/tags/att_input_type_checkbox.asp)
- * EXERCISE ABOUT [iMAGE AS A LINK](https://www.w3schools.com/html/html_images.asp)   
+ * EXERCISE ABOUT [IMAGE AS A LINK](https://www.w3schools.com/html/html_images.asp)   
