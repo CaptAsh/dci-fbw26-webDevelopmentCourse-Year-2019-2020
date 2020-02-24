@@ -155,11 +155,12 @@ Folder **13-02-20** (Class 13.02.2020)
 * type meta vp = meta viewport
 * type lorem50 to have 50 words of lorem random words
 
+* [Attribute](https://www.w3schools.com/html/html_attributes.asp) :
 ```
-* Attribute - <img src= "klcc.jpg" alt="KLCC"  width ="600px" height = "400px"   title = "KL TWIN TOWER" name = "tree" id = "3" class = "img">
+ <img src= "klcc.jpg" alt="KLCC"  width ="600px" height = "400px"   title = "KL TWIN TOWER" name = "tree" id = "3" class = "img">
 ```
 
 ```
-* Attribute - <a href="https://static.asiawebdirect.com/m/kl/portals/kuala-lumpur-ws/homepage/kl-top10s/10-hotels-klcc/pagePropertiesImage/best-klcc-hotels.jpg"
+ <a href="https://static.asiawebdirect.com/m/kl/portals/kuala-lumpur-ws/homepage/kl-top10s/10-hotels-klcc/pagePropertiesImage/best-klcc-hotels.jpg"
  target="_blank" > This KL TWIN TOWER</a> 
  ```
