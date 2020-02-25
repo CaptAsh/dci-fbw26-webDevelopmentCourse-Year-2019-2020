@@ -173,4 +173,17 @@ Folder **13-02-20** (Class 13.02.2020)
 
  * [HTML FORM](https://www.w3schools.com/html/html_forms.asp)
  * [HTML CHECKBOX](https://www.w3schools.com/tags/att_input_type_checkbox.asp)
- * EXERCISE ABOUT [IMAGE AS A LINK](https://www.w3schools.com/html/html_images.asp)   
+ * Exercise about  [IMAGE AS A LINK](https://www.w3schools.com/html/html_images.asp)   
+
+
+ **25-02-20** (Tuesday)
+ * Use [Adobe Color](https://color.adobe.com/de/create) to create your own color.
+ * VsCode Trick:  
+```
+type div.div1 to have:
+<div class="div1"></div>
+
+also div#345
+<div id="345"> </div>
+
+````
