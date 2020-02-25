@@ -1,0 +1,99 @@
+
+body{
+
+background-color: grey;
+
+}
+
+
+
+ul li {
+
+    color: sandybrown;
+}
+
+
+
+ol li {
+
+    color:antiquewhite ;
+}
+
+
+/* table  */
+
+table{
+
+background-color: seagreen;
+}
+
+th {
+
+    font-size:30px;
+    font-family: 'Indie Flower';
+}
+
+
+td{
+    font-size: 15px;
+    font-family: 'Monoton';
+}
+
+
+/* to call id we use # */
+
+#name{
+color:#7BC5E6;             /* TAKE FROM ADOBE COLOR */
+ 
+} 
+
+#firstRow{
+
+    color: blue;
+}
+
+
+/* to call class use .  */
+
+.age{
+    color: coral;
+}
+
+.firstRow{
+
+    color: cyan;
+}
+
+
+
+div{
+
+    width: 100px;
+    height:100px;
+    
+}
+
+.div1{
+
+    background-color: rgba(105, 243, 255, 0.829); /* Take it from rgba cursor */
+}
+
+.div2{
+
+    background-color: firebrick;
+}
+
+.div3{
+
+    background-color: darkkhaki;
+}
+
+
+#required{
+
+color:red;
+}
+
+#fname{
+    color: blue;
+}

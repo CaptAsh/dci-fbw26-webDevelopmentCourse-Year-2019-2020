@@ -1,0 +1,86 @@
+
+body{
+
+    background-color: burlywood;
+
+
+}
+
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color:darksalmon;
+    overflow: hidden;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color:black;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: lightgreen;
+  }
+  
+h1{
+  text-align: center;
+    font-family: 'Trade Winds' ;   
+}
+
+#required{
+
+    color:red;
+    }  
+
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+      }
+    
+
+
+
+
+#myBtn:hover {
+    background-color: greenyellow; /* Add a dark-grey background on hover */
+   object-position: right;
+  }
+  
+
+
+  #container{
+
+    background-color: dodgerblue;
+  }
+
+
+
+  /*social media*/
+.facebook{
+  
+    color: blue;
+    width:20%;
+}
+
+.instagram{
+    color:red;
+  
+}
+/*footer*/
+
+  .block {
+    width: 100%;
+    background-color:darksalmon;
+    overflow: hidden;
+    text-align: center
+  }
