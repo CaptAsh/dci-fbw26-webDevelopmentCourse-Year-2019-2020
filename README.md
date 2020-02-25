@@ -177,13 +177,9 @@ Folder **13-02-20** (Class 13.02.2020)
 
 
  **25-02-20** (Tuesday)
+ 
  * Use [Adobe Color](https://color.adobe.com/de/create) to create your own color.
- * VsCode Trick:  
-```
-type div.div1 to have:
-<div class="div1"></div>
-
-also div#345
-<div id="345"> </div>
-
-````
+ * VsCode Trick ( type div.div1 to have <div class="div1">b</div> and also div#345 to have <div id="345"> </div>)
+ * [HTML Input Types](https://www.w3schools.com/html/html_form_input_types.asp)
+ * [HTML Input Attributes](https://www.w3schools.com/html/html_form_attributes.asp)
+ * When to use [GET or POST](https://www.w3schools.com/html/html_forms.asp) in HTML Form Method
