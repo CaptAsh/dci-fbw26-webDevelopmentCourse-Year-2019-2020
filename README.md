@@ -183,7 +183,8 @@ Folder **13-02-20** (Class 13.02.2020)
 ```
 type div.div1 to have class :
 <div class="div1"> </div>
-and also div#345 to have:
+
+and also div#345 to have id:
 <div id="345">  </div>
 ```
 
