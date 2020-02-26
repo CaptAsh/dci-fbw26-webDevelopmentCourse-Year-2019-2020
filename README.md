@@ -193,4 +193,14 @@ and also div#345 to have id:
  * When to use [GET or POST](https://www.w3schools.com/html/html_forms.asp) in HTML Form Method
  * [HTML Iframes](https://www.w3schools.com/html/html_iframe.asp) is used to display a web page within a web page.
  * [HTML5 Structure with Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
- * 
+ 
+
+  **26-02-20** (Wednesday)
+
+  * Intro to CSS
+  * [CSS Syntax](https://www.w3schools.com/css/css_syntax.asp)
+  * [Styling HTML with CSS](https://www.w3schools.com/html/html_css.asp) -
+  * (Inline - by using the style attribute in HTML elements
+    Internal - by using a <style> element in the <head> section
+    External - by using an external CSS file) .
+  * [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
