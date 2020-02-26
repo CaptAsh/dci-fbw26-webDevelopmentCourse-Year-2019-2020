@@ -14,7 +14,7 @@ Folder **10.12.19** (Class 10.12.2019)
 * Terminal Lessons
 
 Folder **11.12.19** (Class 11.12.2019)
-* Markdown (https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 Folder **12.12.19** (Class 12.12.2019)
 * Markdown and Terminal
@@ -199,8 +199,10 @@ and also div#345 to have id:
 
   * Intro to CSS
   * [CSS Syntax](https://www.w3schools.com/css/css_syntax.asp)
-  * [Styling HTML with CSS](https://www.w3schools.com/html/html_css.asp) -
-  * (Inline - by using the style attribute in HTML elements
-    Internal - by using a <style> element in the <head> section
-    External - by using an external CSS file) .
+  * [Styling HTML with CSS](https://www.w3schools.com/html/html_css.asp):
+   * (Inline - by using the style attribute in HTML elements
+   * Internal - by using a <style> element in the <head> section
+   * External - by using an external CSS file) .
   * [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
+  * [Shorthand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
+  * [The Shapes of CSS](https://css-tricks.com/the-shapes-of-css/)
