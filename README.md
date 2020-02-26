@@ -207,3 +207,5 @@ and also div#345 to have id selector:
   * [Shorthand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
   * [The Shapes of CSS](https://css-tricks.com/the-shapes-of-css/)
   * [Last-child & only-child](https://css-tricks.com/almanac/selectors/o/only-child/)
+  * [CSS Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+  * [Google Fonts](https://fonts.google.com/)
