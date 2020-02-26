@@ -1,0 +1,165 @@
+
+body{
+    /*background-image: url(../img/giphy.gif);*/
+    background-color: darkslategrey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cabin', Arial,sans-serif;
+    
+}
+
+/*  last-child & only-child */
+
+div p:last-child{
+
+    background-color: darkblue;
+    
+    }
+    
+    div p:only-child{
+    
+        background-color:forestgreen;
+        
+        }
+
+
+
+
+.view-img{
+
+width: 600px;
+height:200px;
+border:2px black solid;
+}
+
+h1, h4, p , div{
+color: blue;
+
+}
+
+
+h1{font-size: 40px;}
+
+
+.img2 {
+
+   width: 300px;
+   border: 2px solid #000000;
+   border-top:4px solid maroon;
+   border-bottom: 4px solid maroon;
+   padding :10px 10px 20px 10px;   /*top, right, bottom, left */
+   margin: 5px auto; /*     = topbottom, rightleft */
+/* margin: 0 auto 0 auto; =  topbottom, rightleft  */
+   margin: 1px; /* will apply for all */
+
+}
+
+.square{
+
+width:150px;
+height: 150px;
+border: 2px black solid;
+background-color: lightcoral;
+}
+
+
+.radius{
+
+width:100px;  
+height:100px;  
+border-radius: 100%;
+border-width : 100px;
+border: 2px solid #000000;
+border-top:2px solid maroon;
+border-bottom: 2px solid maroon;
+padding: 20px
+}
+
+
+
+.rectangle{
+width:100px;  
+height:200px;
+border : 2px solid black;
+}
+
+
+
+
+.circle-square{
+
+
+}
+
+.triangle-bottomleft {
+        width: 0;
+        height: 0;
+        border-bottom: 200px solid lightcoral;
+        border-right: 200px solid transparent;
+        
+      }
+
+
+
+.triangle-bottomtop {
+        width: 0;
+        height: 0;
+        border-top: 200px solid lightcoral;
+        border-left: 100px solid transparent;
+        
+      }
+
+
+
+.triangle-bottomright {    
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid lightcoral;
+    border-left: 200px solid transparent;
+        
+      }
+
+.test-box{
+    width: 50%;     
+    height: 70px;
+    border: 2px black solid;
+    margin : 10px;
+
+      }
+
+.random-text{
+
+letter-spacing: 1px;
+word-spacing: 20px;
+line-height: 20px;
+text-align:center;
+text-transform:capitalize ;
+text-decoration: underline;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.move{
+
+    width: 100px;
+    height: 20px;
+    background-color:blue;
+    border: 2px black ;
+
+}
+
+
+.move:hover{
+
+    width: 400px;
+    height: 400px;
+    box-shadow:20px 20px 20px crimson;
+    transition-duration: 3s;
+  
+}
+
+

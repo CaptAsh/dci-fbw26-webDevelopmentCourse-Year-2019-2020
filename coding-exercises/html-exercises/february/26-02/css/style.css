@@ -1,0 +1,43 @@
+
+.rectangle{
+  width:200px;  
+  height:500px;
+  border : 1px black solid ;
+  text-align: center;
+  }
+  
+.contents{
+
+
+text-align: left;
+text-decoration: none;
+}
+
+
+.klcc{
+
+max-width: 100%;
+  height: auto;
+
+}
+
+.others li a{
+ text-decoration: none;
+ 
+}
+.others li{
+  list-style: none;
+}
+
+.block {
+text-align: center;
+
+letter-spacing: 2px;
+word-spacing:20px ;
+} 
+
+
+.block a {
+  text-decoration:none ;
+}
+
