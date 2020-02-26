@@ -181,10 +181,10 @@ Folder **13-02-20** (Class 13.02.2020)
  * Use [Adobe Color](https://color.adobe.com/de/create) to create your own color.
  * VsCode Trick: 
 ```
-type div.div1 to have class :
+type div.div1 to have class selector :
 <div class="div1"> </div>
 
-and also div#345 to have id:
+and also div#345 to have id selector:
 <div id="345">  </div>
 ```
 
@@ -206,3 +206,4 @@ and also div#345 to have id:
   * [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
   * [Shorthand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
   * [The Shapes of CSS](https://css-tricks.com/the-shapes-of-css/)
+  * [Last-child & only-child](https://css-tricks.com/almanac/selectors/o/only-child/)
