@@ -209,3 +209,9 @@ and also div#345 to have id selector:
   * [Last-child & only-child](https://css-tricks.com/almanac/selectors/o/only-child/)
   * [CSS Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
   * [Google Fonts](https://fonts.google.com/)
+
+
+  **27-02-20** (Thursday)
+
+  * 
+  * 
