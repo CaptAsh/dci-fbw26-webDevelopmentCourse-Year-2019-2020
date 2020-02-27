@@ -213,5 +213,7 @@ and also div#345 to have id selector:
 
   **27-02-20** (Thursday)
 
-  * 
-  * 
+  * CSS Basics
+  * [Font Size](https://www.w3schools.com/cssref/pr_font_font-size.asp)
+  * [CSS :active Selector](https://www.w3schools.com/cssref/sel_active.asp)
+  * [Box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
