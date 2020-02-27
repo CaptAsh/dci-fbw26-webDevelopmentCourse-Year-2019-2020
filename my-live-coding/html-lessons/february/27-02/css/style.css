@@ -1,7 +1,150 @@
+* , *:before, *:after{
+    box-size:border-box;
+    margin: 0;
+    padding: 0;
+    }                  /* should have in every css file  */
+
 body{
-background-color :grey ;
+
+    background-color: lightsteelblue;
+}
 
 
 
+
+a {
+    text-decoration-color: greenyellow;
+    background-color: forestgreen;
+    text-decoration: none;
+    padding: 3px;
+  }
+  p {
+    font-size: 2rem;
+  }
+  a:active {
+    color: lightblue;
+  }
+  a:link {
+    color: pink;
+  }
+  a:visited {
+    color: black;
+  }
+
+   ul li a:hover {
+    transition: 1s;
+    background-color:yellow;
+    box-shadow: 3px 3px 2px maroon;
+  }
+
+
+  nav ul li {
+    list-style: none;
+    display: inline;
+    border: 2px black solid;
+    padding: 10px;
+  }
+
+  .img:hover{
+
+        padding: 60px;
+        transition: 2s; 
+        width:1200px;
+        height: 630px;
+        margin: 0 auto;
+        box-shadow: 3px 3px 2px maroon;
+      }
+      
+
+  .center{
+
+    text-align: center;
+  }* , *:before, *:after{
+    box-size:border-box;
+    margin: 0;
+    padding: 0;
+    }                  /* should have in every css file  */
+
+body{
+
+    background-color: lightsteelblue;
+}
+
+
+
+
+a {
+    text-decoration-color: greenyellow;
+    background-color: forestgreen;
+    text-decoration: none;
+    padding: 3px;
+  }
+  p {
+    font-size: 2rem;
+  }
+  a:active {
+    color: lightblue;
+  }
+  a:link {
+    color: pink;
+  }
+  a:visited {
+    color: black;
+  }
+
+   ul li a:hover {
+    transition: 1s;
+    background-color:yellow;
+    box-shadow: 3px 3px 2px maroon;
+  }
+
+
+  nav ul li {
+    list-style: none;
+    display: inline;
+    border: 2px black solid;
+    padding: 10px;
+  }
+
+  .img:hover{
+
+        padding: 60px;
+        transition: 2s; 
+        width:1200px;
+        height: 630px;
+        margin: 0 auto;
+        box-shadow: 3px 3px 2px maroon;
+      }
+      
+/* HELP PAGE */
+
+div{
+    margin: 30px;
+}
+
+
+div p{
+
+font-size: medium;
+text-align: left;
+padding: 40px;
+}
+
+
+div .ar{
+text-align:right ;
+font-size: small;
+
+}
+
+div h3{
+    color:navy;
+    text-align: center;
+}
+
+
+div p:hover{
+transition: 1s;
+background-color: olive;
 
 }
