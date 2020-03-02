@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>02MARCH2020</title>
 </head>
-<body class="main-page">
+<body class="main-page" >
     
-<div class="main-text">
+<div class="main-text" id="top">
      <p id="random-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         itae, officia neque eum delectus minus, sunt molestiae non 
         praesentium eveniet, voluptatibus in. Doloribus animi quam rem, 
@@ -53,29 +53,52 @@
     
     </table>
 
-    <form action="index.php" method = "GET">
+    <form action="index.php" method = "GET" autocomplete="on">
 
-<input type="text" name="firstName id="11 placeholder="enter your name">
+<input type="text" name="firstName"  id="11" placeholder="enter your name" required>
+<span>*</span>
+<input type="text" name="lastName"  id="12" placeholder="enter your last name" required>
+<span>*</span>
+
 <input type="email" name="work-email" id=""  >
-<img src="./img/tree.jpg" alt="tree and sun">
+<img src="./img/tree.jpg" alt="tree and sun bigTree">
 <input type="submit" value="send">
-<input type="reset" value="clear">
+<input type="reset" value="clear"><br>
+<input type="checkbox" name="news" id="news-letter" > 
+send me new stuff weekly!
 
+<br>
+<br>
     </form>
     
     
+    <div class="text-text">hdhdhdhdhdjdjsjs</div>
+
+    <div class="text-main">kjdfushsjsj</div>
     
     
+    <h1>This is a :target</h1>
+    <p><a href="#news1">Jump to New content 1</a></p>
+    <p><a href="#news2">Jump to New content 2</a></p>
     
+    <p>Click on the links above and the :target selector highlight the current active HTML anchor.</p>
     
-    
+    <p id="news1"><b>New content 1...</b></p>
+    <p id="news2"><b>New content 2...</b></p>
 
 
 
 
+
+
+
+ <a href="https://www.google.com/" target="_blank">Click Me</a>  <br><br> 
+ 
+<a href="#top"> Go Up!</a>
 
 
 
 
 </body>
 </html>
+

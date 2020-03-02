@@ -22,7 +22,7 @@ color :black;
 /*    */
 span,div{
 
-    background-color:darkkhaki;
+    /* background-color:darkkhaki; */
 }
 
 /* element element Selector (element inside element) */
@@ -61,7 +61,7 @@ color: saddlebrown;
 
 [name]{
 
- background-color: slateblue;   
+ background-color:whitesmoke;   
 }
 
 /* [attribute=value] Selector */
@@ -92,4 +92,104 @@ border: 2px #000 solid;
     border: 2px red solid; /* this red color over-right before*/
     border-radius: 20%;
     }
+
+/* [attribute$=value] DollarSignSelector value ends with*/
+img[alt~="bigTree"]{
+
+padding :10px;
+}
+
+/* [attribute*=value]Star Selector contains the substring */
+
+div[class*="text-main"]{
+
+   font-size: 2rem;
+    }
+
+
+/* CSS Pseudo Classes down here */
+
+/* mouse over link */
+/* :hover */
+[class*="text"]:hover{
+
+background-color: darkorange;
+    }
+
+/* visited link */
+a :visited{
+
+color:olive;
+}
+
+
+/*:focus  */
+input:focus{
+
+outline: none;
+box-shadow: 3px 3px 3px red;
+}
+
+
+input[name="firstName"] + span{
+
+color: red;
+
+}
+input[name="lastName"] + span{
+
+    color: red;
+    
+    }
+    
+
+
+/* selected link */
+a:active{
+
+  background-color: blueviolet;  
+}
+
+
+/*:checked */
+input:checked{
+
+    width:20px;
+    background-color: blueviolet;
+}
+
+/* :target */
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+  }
+
+
+
+
+/* CSS Pseudo Elements down here*/
+
+/*:after use in CSS2*/
+/*::after use in CSS3*/
+
+div[class="text-main"]:after{
+
+content:" ASHRAF"
+}
+
+
+
+div[class="text-main"]::after{
+
+    content: " hi i'm  css pseudo element ::after"
+}
+
+
+/*::before */ 
+
+div[class="text-text"]::before{
+
+    content: "hi i'm  css pseudo element ::BEFORE"
+}
+
 

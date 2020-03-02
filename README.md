@@ -230,8 +230,14 @@ and also div#345 to have id selector:
   * [Class Selector](https://www.w3schools.com/cssref/sel_class.asp)
   * [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
   * [CSS Attribute Selectors](https://www.w3schools.com/css/css_attribute_selectors.asp)
+  * [CSS Pseudo-classes  from W3schools](https://www.w3schools.com/css/css_pseudo_classes.asp)
+  * [CSS Pseudo-classes  from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+  * [CSS Pseudo-elements from W3schools](https://www.w3schools.com/css/css_pseudo_classes.asp)
+  * [CSS Pseudo-elements from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+  * []()
+  * []()     
+  * []()
   * 
-  *  
   * 
   * 
   * 
