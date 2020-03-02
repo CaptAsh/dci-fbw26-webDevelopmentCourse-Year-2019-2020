@@ -1,0 +1,95 @@
+
+/* Element Selector */
+html{
+
+  font-size: 16px;  
+  margin:0;
+}
+
+/* ID Selector */
+
+#random-text{
+
+color :black;
+
+}
+
+/* Class Selector */
+
+.main-page{background-color: antiquewhite}
+
+
+/*    */
+span,div{
+
+    background-color:darkkhaki;
+}
+
+/* element element Selector (element inside element) */
+
+div p{
+color:firebrick;
+
+}
+
+
+/* VERY IMPORTANT */
+/* element>element Selector  - (element parent element ) */
+/* every div have direct child p element */
+div>p{
+
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: rebeccapurple;
+}
+
+
+/*   element + element  Selecor - (element immediately after element)*/
+
+div + span {
+color: orchid;
+
+}
+
+/* element1~element2 Selector (element preceded element */
+
+span~p{
+
+color: saddlebrown;
+}
+ 
+/* [attribute] Selector */
+
+[name]{
+
+ background-color: slateblue;   
+}
+
+/* [attribute=value] Selector */
+[type="submit"]{
+
+    background-color: darkgrey;
+}
+
+[type="reset"]{
+
+    background-color: red;
+}
+
+
+/* [attribute~=value] Tilde Selector containing the value */
+
+[alt~="sun"]{
+
+width:100px;
+border: 2px #000 solid;
+
+}
+
+
+/* [attribute^=value] Caret Selector begins with the value */
+[alt~="tree"]{
+
+    border: 2px red solid; /* this red color over-right before*/
+    border-radius: 20%;
+    }
+

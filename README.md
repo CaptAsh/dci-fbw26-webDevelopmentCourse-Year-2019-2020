@@ -218,3 +218,24 @@ and also div#345 to have id selector:
   * [CSS :active Selector](https://www.w3schools.com/cssref/sel_active.asp)
   * [Box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
   * [Position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+
+
+
+=============== HTML MARCH 2020========================
+
+  **02-03-20** (Monday)
+
+  * [Element Selector](https://www.w3schools.com/cssref/sel_element.asp)
+  * [ID Selector](https://www.w3schools.com/cssref/sel_id.asp)
+  * [Class Selector](https://www.w3schools.com/cssref/sel_class.asp)
+  * [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
+  * [CSS Attribute Selectors](https://www.w3schools.com/css/css_attribute_selectors.asp)
+  * 
+  *  
+  * 
+  * 
+  * 
+  * 
+  * 
+  * 
+  * 
