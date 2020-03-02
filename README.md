@@ -232,7 +232,7 @@ and also div#345 to have id selector:
   * [CSS Attribute Selectors](https://www.w3schools.com/css/css_attribute_selectors.asp)
   * [CSS Pseudo-classes  from W3schools](https://www.w3schools.com/css/css_pseudo_classes.asp)
   * [CSS Pseudo-classes  from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
-  * [CSS Pseudo-elements from W3schools](https://www.w3schools.com/css/css_pseudo_classes.asp)
+  * [CSS Pseudo-elements from W3schools](https://www.w3schools.com/css/css_pseudo_elements.asp)
   * [CSS Pseudo-elements from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
   * []()
   * []()     

@@ -1,0 +1,159 @@
+body{
+
+background-color:lightgray ;
+}
+
+
+
+td{
+border: 2px solid green;
+font-size: 40px;
+border-radius:5px ;
+text-align: center;
+}
+
+
+
+/*FIRST COLUMN  */
+
+tr:nth-child(1) :first-child{
+    background-color:yellow;
+}
+
+tr:nth-child(2) :first-child{
+    background-color:lightblue;
+}
+
+tr:nth-child(3) :first-child{
+    background-color:lightblue;
+}
+
+tr:nth-child(4) :first-child{
+    background-color:lightblue;
+}
+
+tr:nth-child(5) :first-child{
+    background-color:lightblue;
+}
+
+tr:nth-child(6) :first-child{
+    background-color:lightblue;
+}
+
+tr:nth-child(7) :first-child{
+    background-color:lightblue;
+}
+
+/* 2nd COLUMN */
+td:nth-last-of-type(17){
+    background: peachpuff;
+  }
+
+
+
+
+/* LAST COLUMN */
+tr:nth-child(1) :last-child {
+    background-color:pink;
+}
+
+tr:nth-child(2) :last-child {
+    background-color:pink;
+}
+
+tr:nth-child(3) :last-child {
+    background-color:pink;
+}
+
+tr:nth-child(4) :last-child {
+    background-color:pink;
+}
+
+tr:nth-child(5) :last-child {
+    background-color:pink;
+}
+
+tr:nth-child(6) :last-child {
+    background-color:pink;
+}
+
+tr:nth-child(7) :last-child {
+    background-color:sandybrown;
+}
+
+
+ /* tr > td{
+ background-color:darkgreen; */
+
+
+/* LAST SECOND-ROW */
+  td:nth-last-of-type(2) {
+    background: fuchsia;
+  }
+
+
+  tr:nth-last-of-type(1):last-child  {
+    background:teal;
+  }
+
+ 
+  tr:nth-last-of-type(2)  {
+    background-color:green;
+  }
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+/*  */
+
+  tr:nth-of-type(4) {
+    background: red;
+  }
+  tr:nth-of-type(5) {
+    background: red;
+  }
+  tr:nth-of-type(6) {
+    background: red;
+  }
+  tr:nth-of-type(7) {
+    background: red;
+  }
+
+
+
+  td:nth-of-type(3) {
+    background: lightgreen;
+  }
+
+
+
+
+
+  /*  */
+
+
+
+  td:nth-last-child(5) {
+    background-color:darkkhaki ;
+  }
+
+  td:nth-last-child(6) {
+    background-color:darksalmon ;
+  }
+
+  td:nth-last-child(4) {
+    background-color:lightcoral;
+  }
+
+  td:nth-last-child(3) {
+    background-color:darksalmon ;
+  }
+

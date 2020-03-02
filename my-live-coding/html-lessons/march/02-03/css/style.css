@@ -166,8 +166,50 @@ input:checked{
 
 
 
+/*nth-child() */ 
 
-/* CSS Pseudo Elements down here*/
+tr:nth-child(1n){
+
+background-color: black;
+color: white;
+}
+
+tr:nth-child(2n){
+
+    background-color: cornflowerblue;
+    color: crimson;
+    }
+    
+
+    /* tr:nth-child(3n){
+
+        background-color: red;
+        color: black;
+        }
+         */
+
+        tr:nth-child(4n){
+
+            background-color: cornflowerblue;
+            color: crimson;
+            }
+            
+
+
+tr:last-child(3){
+
+    background-color: forestgreen;
+    
+    }
+
+
+
+    td{
+
+        border: 3px solid black;
+    }
+
+/* CSS Pseudo Classes also Elements down here*/
 
 /*:after use in CSS2*/
 /*::after use in CSS3*/
@@ -181,7 +223,7 @@ content:" ASHRAF"
 
 div[class="text-main"]::after{
 
-    content: " hi i'm  css pseudo element ::after"
+    content: " hi i'm  css pseudo class ::after"
 }
 
 
@@ -189,7 +231,8 @@ div[class="text-main"]::after{
 
 div[class="text-text"]::before{
 
-    content: "hi i'm  css pseudo element ::BEFORE"
+    content: "hi i'm  css pseudo class ::BEFORE"
 }
+
 
 
