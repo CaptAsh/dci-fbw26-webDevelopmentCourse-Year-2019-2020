@@ -10,16 +10,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
+
   background-color: blanchedalmond;
+}
+
+:root {
+  font-size: 16px;
+  --color-font: pink; /* -- means declare a variable*/
+  --hadi-main-text: 10px 10px;
 }
 
 h1 {
   font-family: "Josefin Sans";
+  color: var(--color-font);
+  padding: var(--hadi-main-text);
+  /* direction: rtl;         right to left */
+  /* writing-mode: vertical-lr; */
+  text-shadow: 2px 2px 2px orange;
+  text-orientation: upright;
 }
 
 div {
   font: size 20em;
+  background-color: blue;
 }
 
 /*font-style*/
@@ -31,6 +44,26 @@ p {
   font-variant: normal;
   line-height: 2em;
   text-align: justify;
+  text-transform: capitalize;
+  word-break: break-all;
+  text-indent: 2rem;
+  word-spacing: 1rem;
+}
+
+i {
+  color: hotpink;
+}
+
+i.fa-home {
+  color: blue;
+}
+
+i.fa-headset {
+  color: green;
+}
+
+i.info-circle {
+  color: green;
 }
 
 /* relative parent for em
