@@ -301,12 +301,14 @@ Review of past lessons (table, input)
 - [CSS Variables](https://www.w3schools.com/css/css3_variables.asp)
 - [Text-Transform Values](https://css-tricks.com/almanac/properties/t/text-transform/)
 - [text-orientation](https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation)
+- [text-transform](https://css-tricks.com/almanac/properties/t/text-transform/)
 - [direction](https://css-tricks.com/almanac/properties/d/direction/)
 - [writing-mode](https://css-tricks.com/almanac/properties/w/writing-mode/)
 - [CSS Text](https://www.w3schools.com/css/css_text.asp)
 - [word-break](https://css-tricks.com/almanac/properties/)
 - [text-indent](https://css-tricks.com/almanac/properties/t/text-indent/)
 - [word-spacing](https://css-tricks.com/almanac/properties/w/word-spacing/)
-- []()
-- []()
-- []()
+
+  [Font Awesome:](https://fontawesome.com/)
+
+- href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
