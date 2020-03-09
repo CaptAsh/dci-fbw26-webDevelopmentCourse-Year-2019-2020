@@ -24,6 +24,18 @@ div {
 
 /*font-style*/
 p {
-  font-style: unset;
-  font-size: 2em;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: lighter;
+  /* font: italic 2rem "Josefin Sans";  use this  to combined font-style, font-size, font-weight, font-family in one line*/
+  font-variant: normal;
+  line-height: 2em;
+  text-align: justify;
 }
+
+/* relative parent for em
+
+
+root element for rem 
+
+*/
