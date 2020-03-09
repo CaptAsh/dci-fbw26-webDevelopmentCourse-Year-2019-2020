@@ -288,7 +288,22 @@ Review of past lessons (table, input)
 - [Confused About REM and EM?](https://j.eremy.net/confused-about-rem-and-em/)
 - [Basic typography: rem vs. em vs. px](https://www.youtube.com/watch?v=vy-lRUMpEOs&feature=youtu.be)
 - [CSS Font](https://css-tricks.com/almanac/properties/f/font/)
-- []()
+
+  CSS Font:
+
+1. [font-stretch](https://css-tricks.com/almanac/properties/f/font-stretch/)
+2. [font-style](https://css-tricks.com/almanac/properties/f/font-style/)
+3. [font-variant](https://css-tricks.com/almanac/properties/f/font-variant/)
+4. [font-weight](https://css-tricks.com/almanac/properties/f/font-weight/)
+5. [font-size](https://css-tricks.com/almanac/properties/f/font-size/)
+6. [line-height](https://css-tricks.com/almanac/properties/l/line-height/)
+7. [font-family](https://css-tricks.com/almanac/properties/f/font-family/)
+
+- [CSS Variables](https://www.w3schools.com/css/css3_variables.asp)
+- [Text-Transform Values](https://css-tricks.com/almanac/properties/t/text-transform/)
+- [direction](https://css-tricks.com/almanac/properties/d/direction/)
+- [writing-mode](https://css-tricks.com/almanac/properties/w/writing-mode/)
+- [CSS Text](https://www.w3schools.com/css/css_text.asp)
 - []()
 - []()
 - []()
