@@ -1,0 +1,29 @@
+/*font link*/
+@font-face {
+  font-family: "Josefins Sans";
+  src: url(../fonts/JosefinSans-VariableFont_wght.ttf);
+
+  /*font-family*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: blanchedalmond;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+}
+
+div {
+  font: size 20em;
+}
+
+/*font-style*/
+p {
+  font-style: unset;
+  font-size: 2em;
+}
