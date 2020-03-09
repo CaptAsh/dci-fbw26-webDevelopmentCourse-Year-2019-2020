@@ -269,6 +269,6 @@ and also div#345 to have id selector:
 - [Using @font-face](https://css-tricks.com/snippets/css/using-font-face/)
 - [font-style]()
 - [font-weight]()
-- []()
+- [font-variant](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant)
 - []()
 - []()
