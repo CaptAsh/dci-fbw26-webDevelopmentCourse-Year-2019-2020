@@ -259,8 +259,21 @@ and also div#345 to have id selector:
 - [CSS Pseudo-classes from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 - [CSS Pseudo-elements from W3schools](https://www.w3schools.com/css/css_pseudo_elements.asp)
 - [CSS Pseudo-elements from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+- Exercise-Periodic Table
 
 **04-03-20** (Wednesday)
+Review of past lessons (table, input)
+
+- `:nth-child() { ... }`
+- `vw` and `vh` units
+- `box-sizing: border-box`
+- `display` and `inline`, `block` and `inline-block`
+- `display: flex`
+- `justify-content` and `align-items`
+- Image size: aspect ratio concept, `width` attribute
+- Framing images: `px` concept, `border: [SIZE] solid [COLOR]`
+- Rounding images: `border-radius: [BORDER-SIZE]`, `%`
+- Chess board
 
 **05-03-20** (Thursday)
 
