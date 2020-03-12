@@ -1,0 +1,101 @@
+* {
+  background-color: lightskyblue;
+}
+
+/* flex-box */
+/* flex-direction */
+.daddy {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; evenly space between each element */
+  /* justify-content: flex-end;     grab to end */
+  align-items: baseline;
+  flex-wrap: wrap;
+  /* align-content: center; /*control when it's wrap*/
+  flex-flow: row;
+}
+.baby1 {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  align-self: flex-end;
+  order: 4;
+  flex: 3;
+  /*flex-grow: ;
+  flex-shrink: ;
+  flex-basis: ; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.baby2 {
+  background-color: yellow;
+  width: 250px;
+  height: 250px;
+  order: 2;
+  flex: 1 1 22%;
+}
+.baby3 {
+  background-color: green;
+  width: 250px;
+  height: 250px;
+  order: 3;
+  flex: 1;
+}
+
+.baby4 {
+  background-color: pink;
+  width: 250px;
+  height: 250px;
+  order: 3;
+  flex: 1;
+}
+.page-layout {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+nav {
+  width: 25%;
+}
+.main {
+  display: flex;
+  background-color: hotpink;
+  flex-direction: column-reverse;
+}
+section {
+  border: 2px solid black;
+}
+.text-one {
+  flex: 1;
+}
+/* flex-wrap */
+
+/* flex-flow */
+
+/* justify-content */
+
+/* algin-items */
+
+/* align-content */
+
+/* vertical-align */
+
+/* visibility */
+
+/* more var */
+
+/* z-index */
+
+/* linear-gradient */
+
+/* radialGradient */
+
+/* transform - rotate()*/
+/* transform - rotateX(),rotateY(),rotateZ()*/
+
+/* transition */
+
+/* border-image */
