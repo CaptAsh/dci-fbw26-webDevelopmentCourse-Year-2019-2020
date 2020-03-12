@@ -6,14 +6,14 @@ One year full time Web Development Course by Digital Career Institute(DCI) , Ber
 
 # my-live-coding
 
-**Go to the following link to find the daily live-coding of Javascript :**
+- **Go to the following link to find the daily live-coding of Javascript :**
 
 ## [Javascript](README-JS.md)
 
-**Go to the following link to find the daily live-coding of HTML :**
+- **Go to the following link to find the daily live-coding of HTML :**
 
 ## [HTML & CSS](README-HTML-CSS.md)
 
-**Go to the following link to find the daily live-coding of Web-Development Introduction(Terminal,Markdown,Git & Github):**
+- **Go to the following link to find the daily live-coding of Web-Development Introduction(Terminal,Markdown,Git & Github):**
 
 ## [Terminal,Markdown,Git & Github](README-TERMINAL-GIT-GITHUB.md)
