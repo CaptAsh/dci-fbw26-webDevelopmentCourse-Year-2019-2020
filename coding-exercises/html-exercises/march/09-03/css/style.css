@@ -1,0 +1,20 @@
+.super {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.p-1 {
+  font-style: italic;
+}
+
+.span-1 {
+  font-style: italic;
+}
+
+.span-2 {
+  background-color: lightgreen;
+}
+
+a {
+  text-decoration: none;
+}

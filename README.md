@@ -312,3 +312,19 @@ Review of past lessons (table, input)
   [Font Awesome:](https://fontawesome.com/)
 
 - href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+
+**10-03-20** (Tuesday)
+
+- [A Complete Guide to Flexbox- CSS-TRICKS](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [flex-MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+- [Individual Presentation about CSS transform - rotateX(),rotateY(),rotateZ()](https://github.com/AshrafTajuddin/Css-Presentation-transform-rotateX-rotateY-rotateZ)
+- [Exercise about hover- Create one page inside have several images and style it with CSS hover and transform function](https://github.com/AshrafTajuddin/Css-image-hover-exercises)
+- [Exercise about FlexBox- Create one page like YouTube Channel](https://github.com/AshrafTajuddin/CSS-Flex-Exercise-YouTube)
+
+**11-03-20** (Wednesday)
+
+- self-learning
+
+**12-03-20** (Thursday)
+
+- self-learning

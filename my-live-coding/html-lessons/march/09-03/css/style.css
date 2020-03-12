@@ -54,8 +54,9 @@ i {
   color: hotpink;
 }
 
-i.fa-home {
+nav ul i.fa-home {
   color: blue;
+  list-style: none;
 }
 
 i.fa-headset {
