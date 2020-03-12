@@ -14,6 +14,6 @@ One year full time Web Development Course by Digital Career Institute(DCI) , Ber
 
 ## [HTML & CSS](README-HTML-CSS.md)
 
-- **Go to the following link to find the daily live-coding of Web-Development Introduction(Terminal,Markdown,Git & Github):**
+- **Go to the following link to find the daily live-coding of Web-Development Introduction(Ubuntu Command Line,Markdown,Git & Github):**
 
 ## [Ubuntu Command Line,Markdown,Git & Github](README-TERMINAL-GIT-GITHUB.md)
