@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #ffebcd;
 }
 
 main {
@@ -12,10 +11,10 @@ main {
   grid-template-rows: repeat(5, 5rem);
   height: 100vh;
   grid-template-areas:
-    "box1 box1 box3 "
-    "box2 box2 box3 "
-    "box4 . box5"
-    "box4 box6 box6";
+    "box1 box3 box2 "
+    "box1 . box2 "
+    "box4 . box5";
+
   /* if you need an empty place ypu just replace it with . (dot) */
 
   row-gap: 2rem;
@@ -24,22 +23,26 @@ main {
 }
 
 .box1 {
-  background-color: yellow;
+  background-color: green;
   /* grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2; */
+  grid-column-end: 3;
+  grid-row-start: 2; */
   grid-area: box1;
 }
 .box2 {
   background-color: pink;
   /* grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2; */
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2; */
   grid-area: box2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .box3 {
-  background-color: red;
+  background-image: url(../img/visual.jpg);
+  background-size: cover;
   grid-area: box3;
   display: flex;
   align-items: center;
