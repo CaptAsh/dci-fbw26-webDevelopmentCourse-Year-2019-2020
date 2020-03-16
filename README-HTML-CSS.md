@@ -156,3 +156,4 @@ Review of past lessons (table, input)
 - You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that element's children (which become Grid Items).
 - [Grid- CSS-TRICKS](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Grid-MDN](https://developer.mozilla.org/en-US/docs/Glossary/Grid)
+- [Exercise about Grid-Mock up for a sign in page, feel free to have a different background and different color theme](https://github.com/AshrafTajuddin/CSS-Grid-Exercise)
