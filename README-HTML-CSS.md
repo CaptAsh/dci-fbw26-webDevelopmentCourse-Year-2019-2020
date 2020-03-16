@@ -148,3 +148,13 @@ Review of past lessons (table, input)
 **12-03-20** (Thursday)
 
 - self-learning
+
+**16-03-20** (Monday)
+
+- HomeOffice because COVID-19
+- [Grid- CSS-TRICKS](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Grid-MDN](https://developer.mozilla.org/en-US/docs/Glossary/Grid)
+- []()
+- []()
+- []()
+- []()
