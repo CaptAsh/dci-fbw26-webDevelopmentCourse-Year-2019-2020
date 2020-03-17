@@ -1,238 +1,182 @@
-
 /* Element Selector */
-html{
-
-  font-size: 16px;  
-  margin:0;
+html {
+  font-size: 16px;
+  margin: 0;
 }
 
 /* ID Selector */
 
-#random-text{
-
-color :black;
-
+#random-text {
+  color: black;
 }
 
 /* Class Selector */
 
-.main-page{background-color: antiquewhite}
-
+.main-page {
+  background-color: antiquewhite;
+}
 
 /*    */
-span,div{
-
-    /* background-color:darkkhaki; */
+span,
+div {
+  /* background-color:darkkhaki; */
 }
 
 /* element element Selector (element inside element) */
 
-div p{
-color:firebrick;
-
+div p {
+  color: firebrick;
 }
-
 
 /* VERY IMPORTANT */
 /* element>element Selector  - (element parent element ) */
 /* every div have direct child p element */
-div>p{
-
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    color: rebeccapurple;
+div > p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rebeccapurple;
 }
-
 
 /*   element + element  Selecor - (element immediately after element)*/
 
 div + span {
-color: orchid;
-
+  color: orchid;
 }
 
 /* element1~element2 Selector (element preceded element */
 
-span~p{
-
-color: saddlebrown;
+span ~ p {
+  color: saddlebrown;
 }
- 
+
 /* [attribute] Selector */
 
-[name]{
-
- background-color:whitesmoke;   
+[name] {
+  background-color: whitesmoke;
 }
 
 /* [attribute=value] Selector */
-[type="submit"]{
-
-    background-color: darkgrey;
+[type="submit"] {
+  background-color: darkgrey;
 }
 
-[type="reset"]{
-
-    background-color: red;
+[type="reset"] {
+  background-color: red;
 }
-
 
 /* [attribute~=value] Tilde Selector containing the value */
 
-[alt~="sun"]{
-
-width:100px;
-border: 2px #000 solid;
-
+[alt~="sun"] {
+  width: 100px;
+  border: 2px #000 solid;
 }
 
-
 /* [attribute^=value] Caret Selector begins with the value */
-[alt~="tree"]{
-
-    border: 2px red solid; /* this red color over-right before*/
-    border-radius: 20%;
-    }
+[alt~="tree"] {
+  border: 2px red solid; /* this red color over-right before*/
+  border-radius: 20%;
+}
 
 /* [attribute$=value] DollarSignSelector value ends with*/
-img[alt~="bigTree"]{
-
-padding :10px;
+img[alt~="bigTree"] {
+  padding: 10px;
 }
 
 /* [attribute*=value]Star Selector contains the substring */
 
-div[class*="text-main"]{
-
-   font-size: 2rem;
-    }
-
+div[class*="text-main"] {
+  font-size: 2rem;
+}
 
 /* CSS Pseudo Classes down here */
 
 /* mouse over link */
 /* :hover */
-[class*="text"]:hover{
-
-background-color: darkorange;
-    }
+[class*="text"]:hover {
+  background-color: darkorange;
+}
 
 /* visited link */
-a :visited{
-
-color:olive;
+a :visited {
+  color: olive;
 }
-
 
 /*:focus  */
-input:focus{
-
-outline: none;
-box-shadow: 3px 3px 3px red;
+input:focus {
+  outline: none;
+  box-shadow: 3px 3px 3px red;
 }
 
-
-input[name="firstName"] + span{
-
-color: red;
-
+input[name="firstName"] + span {
+  color: red;
 }
-input[name="lastName"] + span{
-
-    color: red;
-    
-    }
-    
-
+input[name="lastName"] + span {
+  color: red;
+}
 
 /* selected link */
-a:active{
-
-  background-color: blueviolet;  
+a:active {
+  background-color: blueviolet;
 }
 
-
 /*:checked */
-input:checked{
-
-    width:20px;
-    background-color: blueviolet;
+input:checked {
+  width: 20px;
+  background-color: blueviolet;
 }
 
 /* :target */
 :target {
-    border: 2px solid #D4D4D4;
-    background-color: #e5eecc;
-  }
-
-
-
-/*nth-child() */ 
-
-tr:nth-child(1n){
-
-background-color: black;
-color: white;
+  border: 2px solid #d4d4d4;
+  background-color: #e5eecc;
 }
 
-tr:nth-child(2n){
+/*nth-child() */
 
-    background-color: cornflowerblue;
-    color: crimson;
-    }
-    
+tr:nth-child(1n) {
+  background-color: black;
+  color: white;
+}
 
-    /* tr:nth-child(3n){
+tr:nth-child(2n) {
+  background-color: cornflowerblue;
+  color: crimson;
+}
+
+/* tr:nth-child(3n){
 
         background-color: red;
         color: black;
         }
          */
 
-        tr:nth-child(4n){
+tr:nth-child(4n) {
+  background-color: cornflowerblue;
+  color: crimson;
+}
 
-            background-color: cornflowerblue;
-            color: crimson;
-            }
-            
+tr:last-child(3) {
+  background-color: forestgreen;
+}
 
-
-tr:last-child(3){
-
-    background-color: forestgreen;
-    
-    }
-
-
-
-    td{
-
-        border: 3px solid black;
-    }
+td {
+  border: 3px solid black;
+}
 
 /* CSS Pseudo Classes also Elements down here*/
 
 /*:after use in CSS2*/
 /*::after use in CSS3*/
 
-div[class="text-main"]:after{
-
-content:" ASHRAF"
+div[class="text-main"]:after {
+  content: " ASHRAF";
 }
 
-
-
-div[class="text-main"]::after{
-
-    content: " hi i'm  css pseudo class ::after"
+div[class="text-main"]::after {
+  content: " hi i'm  css pseudo class ::after";
 }
 
+/*::before */
 
-/*::before */ 
-
-div[class="text-text"]::before{
-
-    content: "hi i'm  css pseudo class ::BEFORE"
+div[class="text-text"]::before {
+  content: "hi i'm  css pseudo class ::BEFORE";
 }
-
-
-

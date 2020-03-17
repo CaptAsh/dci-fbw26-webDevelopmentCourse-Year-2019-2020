@@ -157,3 +157,13 @@ Review of past lessons (table, input)
 - [Grid- CSS-TRICKS](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Grid-MDN](https://developer.mozilla.org/en-US/docs/Glossary/Grid)
 - [Exercise about Grid-Mock up for a sign in page, feel free to have a different background and different color theme](https://github.com/AshrafTajuddin/CSS-Grid-Exercise)
+
+**17-03-20** (Tuesday)
+
+- [Position- CSS TRICKS](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/)
+- [Position- MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+- [Media Queries for Standard Devices- CSS TRICKS](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+- [Using media queries-MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+- []()
+- []()
+- []()
