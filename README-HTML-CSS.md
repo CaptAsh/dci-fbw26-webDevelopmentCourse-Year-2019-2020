@@ -164,6 +164,9 @@ Review of past lessons (table, input)
 - [Position- MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 - [Media Queries for Standard Devices- CSS TRICKS](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 - [Using media queries-MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
-- []()
-- []()
-- []()
+
+**18-03-20** (Wednesday)
+
+- [Animation-CSS TRICKS](https://css-tricks.com/almanac/properties/a/animation/)
+- [CSS Animation Libraries-CSS TRICKS](https://css-tricks.com/css-animation-libraries/)
+- [Using CSS animations-MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
