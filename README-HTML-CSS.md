@@ -178,7 +178,7 @@ Review of past lessons (table, input)
 
 **23-03-20** (Monday)
 - Css Mix
--[Exercise clip-path](https://github.com/AshrafTajuddin/Css-Clip-Path-Exercise)
+- [Exercise clip-path](https://github.com/AshrafTajuddin/Css-Clip-Path-Exercise)
 
 
 
