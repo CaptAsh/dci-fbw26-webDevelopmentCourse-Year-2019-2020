@@ -151,7 +151,7 @@ Review of past lessons (table, input)
 
 **16-03-20** (Monday)
 
-- HomeOffice because COVID-19
+- HomeOffice began because of COVID-19
 - CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system.
 - You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that element's children (which become Grid Items).
 - [Grid- CSS-TRICKS](https://css-tricks.com/snippets/css/complete-guide-grid/)
@@ -170,3 +170,21 @@ Review of past lessons (table, input)
 - [Animation-CSS TRICKS](https://css-tricks.com/almanac/properties/a/animation/)
 - [CSS Animation Libraries-CSS TRICKS](https://css-tricks.com/css-animation-libraries/)
 - [Using CSS animations-MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+
+**19-03-20** (Thursday)
+- Didn't have live-coding
+- Just [exercise about X Line in Hamburger Menu](https://github.com/AshrafTajuddin/Css-responsive-webpage-exercise)
+
+
+**23-03-20** (Monday)
+- Css Mix
+-[Exercise clip-path](https://github.com/AshrafTajuddin/Css-Clip-Path-Exercise)
+
+
+
+
+
+
+
+
+
