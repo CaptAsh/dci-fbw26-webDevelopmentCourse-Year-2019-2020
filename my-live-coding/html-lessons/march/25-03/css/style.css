@@ -1,5 +1,32 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border: 2px solid gray;
+  width: 50vw;
+  height: 40vh;
+  border-radius: 2%;
+}
+input {
+  width: 50%;
+}
+
+.coolStyle {
+  font-size: 3rem;
+  background-color: violet;
+  color: yellow;
+  border: 4px dashed black;
 }
