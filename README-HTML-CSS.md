@@ -172,19 +172,31 @@ Review of past lessons (table, input)
 - [Using CSS animations-MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
 
 **19-03-20** (Thursday)
+
 - Didn't have live-coding
 - Just [exercise about X Line in Hamburger Menu](https://github.com/AshrafTajuddin/Css-responsive-webpage-exercise)
 
-
 **23-03-20** (Monday)
+
 - Css Mix
 - [Exercise clip-path](https://github.com/AshrafTajuddin/Css-Clip-Path-Exercise)
 
+**24-03-20** (Tuesday)
 
+- Css Mix
+- [](https://github.com/AshrafTajuddin/Css-Clip-Path-Exercise)
 
+**25-03-20** (Wednesday)
 
+- Css Mix
+- [](https://github.com/AshrafTajuddin/Css-Clip-Path-Exercise)
 
+**26-03-20** (Thursday)
 
+- Css Mix
+- [Exercise Drop-Down]()
 
+**30-03-20** (Monday)
 
-
+- BOOTSTRAP
+- [Intro to Bootstrap](https://getbootstrap.com/)
